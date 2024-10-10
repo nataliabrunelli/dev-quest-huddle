@@ -79,37 +79,3 @@ footer a:hover {
   color: var(--soft-magenta);
   border: 1px solid var(--soft-magenta);
 }
-
-@media (max-width: 768px) {
-  body {
-    background: url(../images/bg-mobile.svg) no-repeat var(--violet);
-  }
-
-  header img {
-    width: 40%;
-  }
-
-  main {
-    flex-direction: column;
-  }
-
-  main div {
-    text-align: center;
-  }
-
-  main div button {
-    align-self: center;
-  }
-
-  main div h1 {
-    font-size: 1.7rem;
-  }
-
-  main div p {
-    font-weight: 300;
-  }
-
-  footer {
-    justify-content: center;
-  }
-}
