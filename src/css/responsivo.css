@@ -9,10 +9,12 @@
 
   main {
     flex-direction: column;
+    gap: 20px;
   }
 
   main div {
     text-align: center;
+    gap: 15px;
   }
 
   main div button {
@@ -24,7 +26,13 @@
   }
 
   main div p {
+    font-size: 1rem;
     font-weight: 300;
+  }
+
+  main div button {
+    font-size: 1rem;
+    padding: 10px 60px;
   }
 
   footer {
